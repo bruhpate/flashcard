@@ -2,7 +2,9 @@
     "flashcards": [
         { "domanda": "Qual è la formula di E=mc^2?", "risposta": "E=mc^2" },
         { "domanda": "Qual è l'integrale di \\(\\int x^2 dx\\)?", "risposta": "\\(\\frac{x^3}{3} + C\\)" },
-        { "domanda": "Dimostra il Teorema di Pitagora: \\(a^2 + b^2 = c^2\\)", "risposta": "Teorema di Pitagora: \\(a^2 + b^2 = c^2\\)" }
+        { "domanda": "Dimostra il Teorema di Pitagora: \\(a^2 + b^2 = c^2\\)", "risposta": "Teorema di Pitagora: \\(a^2 + b^2 = c^2\\)" },
+        { "domanda": "Cosa sono i numeri irrazionali?",
+        "risposta": "Sono numeri non rappresentabili da frazioni (\\sqrt{2},\\pi,\\e)"}
     ]
 }
 
