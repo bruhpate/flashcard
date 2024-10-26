@@ -13,7 +13,7 @@
             align-items: center;
             height: 100vh;
             margin: 0;
-            background-color: rgb(159, 174, 189);
+            background-color: rgb(159, 174, 174);
             color: #1a3bf5;
         }
         .container {
@@ -129,19 +129,30 @@
     // Funzione per mostrare una carta con supporto LaTeX
     async function displayCard() {
         const card = flashcards[shuffledIndexes[currentCardIndex]];
-        document.getElementById('content').innerHTML = card.domanda; // Usa innerHTML per rendere il LaTeX
+        document.getElementById('content').innerHTML = card.domanda;
         document.getElementById('flashcard').classList.remove('green');
         document.getElementById('flashcard').classList.add('red');
         showingAnswer = false;
 
         updateCardCounter();
-        await MathJax.typesetPromise(); // Renderizza LaTeX dopo aver impostato il contenuto
+
+        try {
+            // Attendi che MathJax renderizzi LaTeX dopo aver impostato il contenuto
+            await MathJax.typesetPromise();
+        } catch (error) {
+            console.error('Errore nel rendering LaTeX:', error);
+        }
+
+        // Attendi un breve intervallo e applica nuovamente il rendering come fallback
+        setTimeout(async () => {
+            await MathJax.typesetPromise();
+        }, 100);
 
         document.getElementById('prev-btn').disabled = currentCardIndex === 0;
         document.getElementById('next-btn').disabled = currentCardIndex === shuffledIndexes.length - 1;
     }
 
-    // Funzione per alternare tra domanda e risposta con supporto LaTeX
+    // Funzione per alternare tra domanda e risposta
     document.getElementById('flashcard').addEventListener('click', async () => {
         const card = flashcards[shuffledIndexes[currentCardIndex]];
         if (showingAnswer) {
@@ -154,7 +165,13 @@
             document.getElementById('flashcard').classList.add('green');
         }
         showingAnswer = !showingAnswer;
-        await MathJax.typesetPromise(); // Renderizza LaTeX ogni volta che si cambia contenuto
+
+        // Applica il rendering di LaTeX per ogni cambio di contenuto
+        try {
+            await MathJax.typesetPromise();
+        } catch (error) {
+            console.error('Errore nel rendering LaTeX:', error);
+        }
     });
 
     // Eventi per andare alla carta successiva o precedente
