@@ -4,34 +4,33 @@
         "risposta": "Tutti i numeri positivi e interi 0 compreso." },
 
         { "domanda": "Perchè sono nati i numeri naturali?",
-        "risposta": "Dal bisogno di poter contare e numerare oggetti."},
+        "risposta": "Dal bisogno di poter contare e numerare oggetti." },
 
         { "domanda": "Cos'è il successore di un numero nei numeri naturali?",
-        "risposta": "È un numero che ordinatamente viene dopo un numero."},
+        "risposta": "È un numero che ordinatamente viene dopo un numero." },
 
         { "domanda": "Differenza tra numeri interi e numeri naturali",
-        "risposta": "I numeri interi sono caratterizzati da un segno \\pm\\."},
+        "risposta": "I numeri interi sono caratterizzati da un segno \\( \\pm \\)." },
 
-        { "domanda": "Come si comportano i successori in \\mathbb{Z}\\ rispetto a \\mathbb{N}\\",
-        "risposta": "Anche lo 0 ha un predecessore."},
+        { "domanda": "Come si comportano i successori in \\( \\mathbb{Z} \\) rispetto a \\( \\mathbb{N} \\)",
+        "risposta": "Anche lo 0 ha un predecessore." },
 
         { "domanda": "Cos'è un sottoinsieme?",
-        "risposta": "È un insieme contenuto interamente in un altro insieme."},
+        "risposta": "È un insieme contenuto interamente in un altro insieme." },
 
         { "domanda": "Differenza sottoinsieme proprio e improprio",
-        "risposta": "Proprio (\\subset\\) non può essere vuoto o uguale all'insieme a cui appartiene, Improprio (\\subseteq\\) si."},
+        "risposta": "Proprio \\( \\subset \\) non può essere vuoto o uguale all'insieme a cui appartiene, Improprio \\( \\subseteq \\) si." },
 
         { "domanda": "Cos'è l'opposto di un numero?",
-        "risposta": "È il numero stesso con il segno invertito."},
+        "risposta": "È il numero stesso con il segno invertito." },
 
         { "domanda": "Cosa sono i numeri razionali?",
-        "risposta": "Sono i numeri esprimibili da un rapporto di due numeri interi."},
+        "risposta": "Sono i numeri esprimibili da un rapporto di due numeri interi." },
 
         { "domanda": "Cos'è la densità?",
-        "risposta": "Proprietà dei razionali per cui esiste sempre un elemento tra altri due elementi."},
+        "risposta": "Proprietà dei razionali per cui esiste sempre un elemento tra altri due elementi." },
 
         { "domanda": "Cosa sono i numeri irrazionali?",
-        "risposta": "Sono numeri non rappresentabili da frazioni (\\sqrt{2},\\pi,\\e)"}
+        "risposta": "Sono numeri non rappresentabili da frazioni \\( \\sqrt{2}, \\pi, e \\)" }
     ]
 }
-
