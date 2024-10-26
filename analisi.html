@@ -129,19 +129,19 @@
     // Funzione per mostrare una carta con supporto LaTeX
     async function displayCard() {
         const card = flashcards[shuffledIndexes[currentCardIndex]];
-        document.getElementById('content').innerHTML = card.domanda;
+        document.getElementById('content').innerHTML = card.domanda; // Usa innerHTML per rendere il LaTeX
         document.getElementById('flashcard').classList.remove('green');
         document.getElementById('flashcard').classList.add('red');
         showingAnswer = false;
 
         updateCardCounter();
-        await MathJax.typesetPromise(); // Render LaTeX dopo il caricamento del contenuto
+        await MathJax.typesetPromise(); // Renderizza LaTeX dopo aver impostato il contenuto
 
         document.getElementById('prev-btn').disabled = currentCardIndex === 0;
         document.getElementById('next-btn').disabled = currentCardIndex === shuffledIndexes.length - 1;
     }
 
-    // Funzione per alternare tra domanda e risposta
+    // Funzione per alternare tra domanda e risposta con supporto LaTeX
     document.getElementById('flashcard').addEventListener('click', async () => {
         const card = flashcards[shuffledIndexes[currentCardIndex]];
         if (showingAnswer) {
@@ -154,7 +154,7 @@
             document.getElementById('flashcard').classList.add('green');
         }
         showingAnswer = !showingAnswer;
-        await MathJax.typesetPromise(); // Render LaTeX ogni volta che si cambia contenuto
+        await MathJax.typesetPromise(); // Renderizza LaTeX ogni volta che si cambia contenuto
     });
 
     // Eventi per andare alla carta successiva o precedente
