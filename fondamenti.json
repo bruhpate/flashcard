@@ -10,88 +10,28 @@
         "risposta": "È un numero che ordinatamente viene dopo un numero."},
 
         { "domanda": "Differenza tra numeri interi e numeri naturali",
-        "risposta": "I numeri interi sono caratterizzati da un segno \\pm\\"},
+        "risposta": "I numeri interi sono caratterizzati da un segno \\pm\\."},
 
-        { "domanda": "",
-        "risposta": ""},
+        { "domanda": "Come si comportano i successori in \\mathbb{Z}\\ rispetto a \\mathbb{N}\\",
+        "risposta": "Anche lo 0 ha un predecessore."},
 
-        { "domanda": "",
-        "risposta": ""},
+        { "domanda": "Cos'è un sottoinsieme?",
+        "risposta": "È un insieme contenuto interamente in un altro insieme."},
 
-        { "domanda": "",
-        "risposta": ""},
+        { "domanda": "Differenza sottoinsieme proprio e improprio",
+        "risposta": "Proprio (\\subset\\) non può essere vuoto o uguale all'insieme a cui appartiene, Improprio (\\subseteq\\) si."},
 
-        { "domanda": "",
-        "risposta": ""},
+        { "domanda": "Cos'è l'opposto di un numero?",
+        "risposta": "È il numero stesso con il segno invertito."},
 
-        { "domanda": "",
-        "risposta": ""},
+        { "domanda": "Cosa sono i numeri razionali?",
+        "risposta": "Sono i numeri esprimibili da un rapporto di due numeri interi."},
 
-        { "domanda": "",
-        "risposta": ""},
+        { "domanda": "Cos'è la densità?",
+        "risposta": "Proprietà dei razionali per cui esiste sempre un elemento tra altri due elementi."},
 
-        { "domanda": "",
-        "risposta": ""},
-
-        { "domanda": "",
-        "risposta": ""},
-
-        { "domanda": "",
-        "risposta": ""},
-
-        { "domanda": "",
-        "risposta": ""},
-
-        { "domanda": "",
-        "risposta": ""},
-
-        { "domanda": "",
-        "risposta": ""},
-
-        { "domanda": "",
-        "risposta": ""},
-
-        { "domanda": "",
-        "risposta": ""},
-
-        { "domanda": "",
-        "risposta": ""},
-
-        { "domanda": "",
-        "risposta": ""},
-
-        { "domanda": "",
-        "risposta": ""},
-
-        { "domanda": "",
-        "risposta": ""},
-
-        { "domanda": "",
-        "risposta": ""},
-
-        { "domanda": "",
-        "risposta": ""},
-
-        { "domanda": "",
-        "risposta": ""},
-
-        { "domanda": "",
-        "risposta": ""},
-
-        { "domanda": "",
-        "risposta": ""},
-
-        { "domanda": "",
-        "risposta": ""},
-
-        { "domanda": "",
-        "risposta": ""},
-
-        { "domanda": "",
-        "risposta": ""},
-
-        { "domanda": "",
-        "risposta": ""},
+        { "domanda": "Cosa sono i numeri irrazionali?",
+        "risposta": "Sono numeri non rappresentabili da frazioni (\\sqrt{2},\\pi,\\e)"}
     ]
 }
 
