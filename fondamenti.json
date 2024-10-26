@@ -1,6 +1,97 @@
 {
     "flashcards": [
-        { "domanda": "Cosa sono i numeri naturali?", "risposta": "Tutti i numeri positivi e interi 0 compreso" }
+        { "domanda": "Cosa sono i numeri naturali?", 
+        "risposta": "Tutti i numeri positivi e interi 0 compreso." },
+
+        { "domanda": "Perchè sono nati i numeri naturali?",
+        "risposta": "Dal bisogno di poter contare e numerare oggetti."},
+
+        { "domanda": "Cos'è il successore di un numero nei numeri naturali?",
+        "risposta": "È un numero che ordinatamente viene dopo un numero."},
+
+        { "domanda": "Differenza tra numeri interi e numeri naturali",
+        "risposta": "I numeri interi sono caratterizzati da un segno \\pm\\"},
+
+        { "domanda": "",
+        "risposta": ""},
+
+        { "domanda": "",
+        "risposta": ""},
+
+        { "domanda": "",
+        "risposta": ""},
+
+        { "domanda": "",
+        "risposta": ""},
+
+        { "domanda": "",
+        "risposta": ""},
+
+        { "domanda": "",
+        "risposta": ""},
+
+        { "domanda": "",
+        "risposta": ""},
+
+        { "domanda": "",
+        "risposta": ""},
+
+        { "domanda": "",
+        "risposta": ""},
+
+        { "domanda": "",
+        "risposta": ""},
+
+        { "domanda": "",
+        "risposta": ""},
+
+        { "domanda": "",
+        "risposta": ""},
+
+        { "domanda": "",
+        "risposta": ""},
+
+        { "domanda": "",
+        "risposta": ""},
+
+        { "domanda": "",
+        "risposta": ""},
+
+        { "domanda": "",
+        "risposta": ""},
+
+        { "domanda": "",
+        "risposta": ""},
+
+        { "domanda": "",
+        "risposta": ""},
+
+        { "domanda": "",
+        "risposta": ""},
+
+        { "domanda": "",
+        "risposta": ""},
+
+        { "domanda": "",
+        "risposta": ""},
+
+        { "domanda": "",
+        "risposta": ""},
+
+        { "domanda": "",
+        "risposta": ""},
+
+        { "domanda": "",
+        "risposta": ""},
+
+        { "domanda": "",
+        "risposta": ""},
+
+        { "domanda": "",
+        "risposta": ""},
+
+        { "domanda": "",
+        "risposta": ""},
     ]
 }
 
