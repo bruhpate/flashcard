@@ -54,7 +54,7 @@
         { "domanda": "Qual è la cardinalità dell'insieme potenza \\( |\\mathcal{P}(A)| \\)?",
         "risposta": "\\( 2^{|A|} \\)" },
         
-                { "domanda": "Cosa vuol dire unione di 2 insiemi?", 
+        { "domanda": "Cosa vuol dire unione di 2 insiemi?", 
           "risposta": "È l'insieme che contiene tutti gli elementi di entrambi gli insiemi, senza ripetizioni." 
         },
         { "domanda": "Cosa vuol dire intersezione di 2 insiemi?", 
@@ -92,7 +92,45 @@
         },
         { "domanda": "Cosa significa insiemi congiunti?", 
           "risposta": "Che hanno almeno un elemento in comune." 
-        }
-        
+        },
+        { "domanda": "Cos'è una coppia ordinata?", 
+          "risposta": "Collezione di due elementi, dove si possono distinguere il primo e il secondo elemento." 
+        },
+        { "domanda": "Cos'è una tupla ordinata?", 
+          "risposta": "Sono come coppie ma composte di $\\n$ elementi." 
+        },
+        { "domanda": "Cos'è il prodotto cartesiano di $A \\times B$?", 
+          "risposta": "È l'insieme di tutte le coppie ordinate che si possono formare combinando $x \\in A$ e $y \\in B$." 
+        },
+        { "domanda": "Cos'è una sequenza?", 
+          "risposta": "È una tupla ordinata del prodotto cartesiano di un insieme."
+        },
+        { "domanda": "Cos'è un segmento?", 
+          "risposta": "È una porzione di una sequenza."
+        },
+        { "domanda": "Cos'è una relazione", 
+          "risposta": "È un sottoinsieme di coppie ordinate del prodotto cartesiano $A \\times B$." 
+        },
+        { "domanda": "Che tipi di rappresentazioni esistono per le relazioni?", 
+          "risposta": "Tabluare, matriciale, piano cartesiano, Eulero-Venn." 
+        },
+        { "domanda": "Cos'è il dominio di una relazione?", 
+          "risposta": "Sono tutti gli elementi dell'insieme di partenza che sono in relazione con almeno un elemento dell'insieme di arrivo."
+        },
+        { "domanda": "Cos'è il codominio di una relazione?", 
+          "risposta": "Sono tutti gli elementi dell'insieme di arrivo che sono in relazione con almeno un elemento dell'insieme di partenza"
+        },
+        { "domanda": "Cos'è la relazione inversa?", 
+          "risposta": "È la relazione ma con $x$ e $y$ scambiate, quindi $\\langle y, x \\rangle$" 
+        },
+        { "domanda": "Quando una relazione si dice d'identità?", 
+          "risposta": "Quando ogni elemento dell'insieme di partenza è in relazione solo e soltanto con se stesso."
+        },
+        { "domanda": "Elenco delle proprietà delle relazioni binarie",
+          "risposta": "Riflessività, Irriflessività, Simmetria, Asimmetria, Antisimmetria, Transitività."
+        },
+        { "domanda": "Quante sono le proprietà delle relazione binarie?",
+          "risposta": "6"
+        } 
     ]
 }
