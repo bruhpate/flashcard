@@ -97,7 +97,7 @@
           "risposta": "Collezione di due elementi, dove si possono distinguere il primo e il secondo elemento." 
         },
         { "domanda": "Cos'è una tupla ordinata?", 
-          "risposta": "Sono come coppie ma composte di $\\n$ elementi." 
+          "risposta": "Sono come coppie ma composte di $n$ elementi." 
         },
         { "domanda": "Cos'è il prodotto cartesiano di $A \\times B$?", 
           "risposta": "È l'insieme di tutte le coppie ordinate che si possono formare combinando $x \\in A$ e $y \\in B$." 
