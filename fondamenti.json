@@ -52,6 +52,47 @@
         "risposta": "È l'insieme formato da tutti i sottoinsiemi di un insieme." },
 
         { "domanda": "Qual è la cardinalità dell'insieme potenza \\( |\\mathcal{P}(A)| \\)?",
-        "risposta": "\\( 2^{|A|} \\)" }
+        "risposta": "\\( 2^{|A|} \\)" },
+        
+                { "domanda": "Cosa vuol dire unione di 2 insiemi?", 
+          "risposta": "È l'insieme che contiene tutti gli elementi di entrambi gli insiemi, senza ripetizioni." 
+        },
+        { "domanda": "Cosa vuol dire intersezione di 2 insiemi?", 
+          "risposta": "È l'insieme che contiene solo gli elementi comuni a entrambi gli insiemi." 
+        },
+        { "domanda": "Cosa vuol dire differenza di 2 insiemi?", 
+          "risposta": "È l'insieme che contiene tutti gli elementi del primo ma non del secondo." 
+        },
+        { "domanda": "Cosa vuol dire differenza simmetrica di 2 insiemi?", 
+          "risposta": "È l'insieme degli elementi che appartengono a uno solo dei due insiemi, escludendo quelli comuni." 
+        },
+        { "domanda": "Cos'è l'insieme universo?", 
+          "risposta": "È l'insieme che contiene tutti gli elementi." 
+        },
+        { "domanda": "Leggi di De Morgan", 
+          "risposta": "$\\overline{A \\cup B} = \\overline{A} \\cap \\overline{B}$ oppure $\\overline{A \\cap B} = \\overline{A} \\cup \\overline{B}$" 
+        },
+        { "domanda": "Cos'è l'insieme famiglia?", 
+          "risposta": "È un insieme i cui elementi sono tutti insiemi." 
+        },
+        { "domanda": "Cosa significa $\\cup \\mathcal{F}$?", 
+          "risposta": "Unione di tutti i sottoinsiemi dell'insieme famiglia." 
+        },
+        { "domanda": "Cosa significa $\\cap \\mathcal{F}$?", 
+          "risposta": "Intersezione di tutti i sottoinsiemi dell'insieme famiglia." 
+        },
+        { "domanda": "Cos'è una partizione?", 
+          "risposta": "È una famiglia di insiemi tali che ogni elemento fa parte di uno e un solo sottoinsieme, e tutti i sottoinsiemi sono disgiunti tra di loro." 
+        },
+        { "domanda": "Che proprietà ha una partizione?", 
+          "risposta": "Non può avere insiemi vuoti, $\\cup \\mathcal{F} = A$, e tutti i sottoinsiemi sono disgiunti." 
+        },
+        { "domanda": "Cosa significa insiemi disgiunti?", 
+          "risposta": "Che non hanno elementi in comune." 
+        },
+        { "domanda": "Cosa significa insiemi congiunti?", 
+          "risposta": "Che hanno almeno un elemento in comune." 
+        }
+        
     ]
 }
