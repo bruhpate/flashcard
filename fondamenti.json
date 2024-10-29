@@ -103,7 +103,7 @@
           "risposta": "È l'insieme di tutte le coppie ordinate che si possono formare combinando $x \\in A$ e $y \\in B$." 
         },
         { "domanda": "Cos'è una sequenza?", 
-          "risposta": "È una tupla ordinata del prodotto cartesiano di un insieme."
+          "risposta": "È una tupla ordinata."
         },
         { "domanda": "Cos'è un segmento?", 
           "risposta": "È una porzione di una sequenza."
