@@ -63,7 +63,7 @@
         { "domanda": "Cosa vuol dire differenza di 2 insiemi?", 
           "risposta": "È l'insieme che contiene tutti gli elementi del primo ma non del secondo." 
         },
-        { "domanda": "Cosa vuol dire differenza simmetrica di 2 insiemi?", 
+        { "domanda": "Cosa vuol dire differenza simmetrica di 2 insiemi? (Zoe)", 
           "risposta": "È l'insieme degli elementi che appartengono a uno solo dei due insiemi, escludendo quelli comuni." 
         },
         { "domanda": "Cos'è l'insieme universo?", 
